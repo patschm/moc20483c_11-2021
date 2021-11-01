@@ -21,7 +21,28 @@ namespace ReturnOfTheTafels
 
         static int AskInput()
         {
-            throw new NotImplementedException();
+            do
+            {
+                Console.Write("Welke tafel? ");
+                string snr = Console.ReadLine();
+                try
+                {
+                    return int.Parse(snr);
+                }
+                catch(FormatException fe)
+                {
+                    Console.WriteLine($"{snr} is geen getal. Probeer het nog eens");
+                }
+                catch(OverflowException oc)
+                {
+                    Console.WriteLine($"Het getal moet tussen {int.MinValue} en {int.MaxValue} liggen");
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine("Onbekende fout");
+                }
+            }
+            while (true);
         }
     }
 }

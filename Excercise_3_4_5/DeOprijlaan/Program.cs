@@ -19,6 +19,10 @@ namespace DeOprijlaan
             lus.Connect(kuil);
             lus.Connect(lamp);
 
+            lus.Connect(hek.Open);
+            lus.Connect(kuil.Open);
+            lus.Connect(lamp.Aan);
+
             lus.Detecteert();
         }
     }

@@ -15,7 +15,7 @@ namespace Objecten
 
     class Taxi : Vehicle
     {
-        public override void Rijden()
+        public sealed override void Rijden()
         {
             Console.WriteLine("De taxi scheurt rond");
         }

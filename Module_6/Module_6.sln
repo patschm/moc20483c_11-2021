@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bestanden", "Bestanden\Best
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StromingsLeer", "StromingsLeer\StromingsLeer.csproj", "{0F696D23-039A-4393-81FE-FB854214F1C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cerials", "Cerials\Cerials.csproj", "{77AD572F-600E-458F-9E95-498BF9AF3774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CerialsOld", "CerialsOld\CerialsOld.csproj", "{F9685B4D-7134-44FF-97E1-6204A7A53B05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0F696D23-039A-4393-81FE-FB854214F1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F696D23-039A-4393-81FE-FB854214F1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F696D23-039A-4393-81FE-FB854214F1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AD572F-600E-458F-9E95-498BF9AF3774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AD572F-600E-458F-9E95-498BF9AF3774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AD572F-600E-458F-9E95-498BF9AF3774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AD572F-600E-458F-9E95-498BF9AF3774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9685B4D-7134-44FF-97E1-6204A7A53B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9685B4D-7134-44FF-97E1-6204A7A53B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9685B4D-7134-44FF-97E1-6204A7A53B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9685B4D-7134-44FF-97E1-6204A7A53B05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

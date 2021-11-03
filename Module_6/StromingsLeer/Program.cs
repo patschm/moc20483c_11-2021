@@ -14,7 +14,31 @@ namespace StromingsLeer
             //SchrijvenVanuitJeLuieStoel();
             //LezenVanuitJeLuieStoel();
             //SchrijvenCompact();
-           // LezenCompact();
+            // LezenCompact();
+            Tafelen();
+        }
+
+        private static void Tafelen()
+        {
+            using (FileStream riool = File.Create(@"D:\tafels.txt"))
+            {
+                using (StreamWriter writer = new StreamWriter(riool))
+                {
+                    Console.SetOut(writer);
+                    for (int tafel = 1; tafel <= 10; tafel++)
+                    {
+                        if (tafel == 5) continue;
+                        Console.WriteLine($"De tafel van {tafel}");
+                        for (int counter = 1; counter <= 10; counter++)
+                        {
+                            if (counter == 5) continue;
+                            Console.WriteLine($"{counter,-2} x {tafel,-2} = {counter * tafel}");
+                        }
+                    }
+                }
+                //writer.Flush();
+                //writer.Close();
+            }
         }
 
         private static void LezenCompact()

@@ -8,17 +8,21 @@ namespace Performance
     {
         static void Main(string[] args)
         {
-            StringBuilder text = new StringBuilder();
+            string text = "";
+            //StringBuilder text = new StringBuilder();
 
             Stopwatch watch = new Stopwatch();
             watch.Start();
             for(int i = 0; i < 100000; i++)
             {
-                text.Append(i.ToString());
+                text += i.ToString();
+                //text.Append(i.ToString());
             }
             watch.Stop();
 
             Console.WriteLine(watch.Elapsed);
+
+            Console.ReadLine();
         }
     }
 }

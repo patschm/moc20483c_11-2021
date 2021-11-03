@@ -11,21 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeCompanie", "ZeCompanie\Ze
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreInteraction", "MoreInteraction\MoreInteraction.csproj", "{ABE2AF43-5492-4369-A786-E5657CDD9AAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithdelegates", "FunWithdelegates\FunWithdelegates.csproj", "{16194AD4-47D9-4BA6-AD7A-4E2070BAF975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithdelegates", "FunWithdelegates\FunWithdelegates.csproj", "{16194AD4-47D9-4BA6-AD7A-4E2070BAF975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioStation", "RadioStation\RadioStation.csproj", "{95D2C2A9-BE19-45FB-A24D-298D1ACB3615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioStation", "RadioStation\RadioStation.csproj", "{95D2C2A9-BE19-45FB-A24D-298D1ACB3615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{4F781585-FF24-4430-AEF0-689575A02CBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{4F781585-FF24-4430-AEF0-689575A02CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvolutieDelegates", "EvolutieDelegates\EvolutieDelegates.csproj", "{D70314A5-D7D1-4013-AF91-925A57E7C79F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolutieDelegates", "EvolutieDelegates\EvolutieDelegates.csproj", "{D70314A5-D7D1-4013-AF91-925A57E7C79F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GehannesMetVishaken", "GehannesMetVishaken\GehannesMetVishaken.csproj", "{47465E7D-A63B-4572-85E2-D1DC1530BE00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GehannesMetVishaken", "GehannesMetVishaken\GehannesMetVishaken.csproj", "{47465E7D-A63B-4572-85E2-D1DC1530BE00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geinige", "Geinige\Geinige.csproj", "{894DC601-9226-45CD-AC0A-15CC74A025EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geinige", "Geinige\Geinige.csproj", "{894DC601-9226-45CD-AC0A-15CC74A025EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatGebouw", "FlatGebouw\FlatGebouw.csproj", "{B0201C54-1809-4228-8597-F74F0B448AA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlatGebouw", "FlatGebouw\FlatGebouw.csproj", "{B0201C54-1809-4228-8597-F74F0B448AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mysterie", "Mysterie\Mysterie.csproj", "{3854D473-C101-469F-A957-2C8A2ACBEDD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mysterie", "Mysterie\Mysterie.csproj", "{3854D473-C101-469F-A957-2C8A2ACBEDD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lekken", "Lekken\Lekken.csproj", "{8FBD7EC6-12E4-4DC7-89F5-50EF2A1102DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{3854D473-C101-469F-A957-2C8A2ACBEDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3854D473-C101-469F-A957-2C8A2ACBEDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3854D473-C101-469F-A957-2C8A2ACBEDD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBD7EC6-12E4-4DC7-89F5-50EF2A1102DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBD7EC6-12E4-4DC7-89F5-50EF2A1102DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBD7EC6-12E4-4DC7-89F5-50EF2A1102DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBD7EC6-12E4-4DC7-89F5-50EF2A1102DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RekenMachine", "RekenMachine\RekenMachine.csproj", "{3CB223F2-B1E3-45DA-A97C-6E5E6513C24F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treadings", "Treadings\Treadings.csproj", "{B05C4786-B4C8-42B8-A6F0-12A285E31AF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3CB223F2-B1E3-45DA-A97C-6E5E6513C24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CB223F2-B1E3-45DA-A97C-6E5E6513C24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CB223F2-B1E3-45DA-A97C-6E5E6513C24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05C4786-B4C8-42B8-A6F0-12A285E31AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05C4786-B4C8-42B8-A6F0-12A285E31AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05C4786-B4C8-42B8-A6F0-12A285E31AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05C4786-B4C8-42B8-A6F0-12A285E31AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

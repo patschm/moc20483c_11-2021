@@ -34,7 +34,7 @@ namespace TheClien_t
             showInf.Invoke(p, new object[] { });
 
             dynamic p2 = Activator.CreateInstance(tpers);
-            p2.FirstNames = "Willem";
+            p2.FirstName = "Willem";
             p2.LastName = "Holleeder";
             p2.Age = 67;
 
